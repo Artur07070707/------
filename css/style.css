@@ -1,0 +1,551 @@
+
+
+
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+
+body {
+  font-family: 'Gilroy';
+  margin: 0px;
+  font-family:'Oswald' sans-serif;
+  
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header-top,
+.nav {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bordered-link {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #c4c4c47c;
+  padding: 18px 25px;
+  gap: 10px;
+}
+.bordered-link:last-child {
+  border-right: 1px solid #c4c4c47c;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.header-link-2 {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  color: white;
+  padding: 10px;
+  background: #00868a;
+}
+
+.main-container {
+  padding-top: 20px;
+  background: #4fbfa5;
+
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.conteiner-kasmetolok {
+  width: 40%;
+}
+
+.main-button {
+  color: white;
+}
+
+#button-2 {
+  padding: 5px;
+  background: #fff;
+  color: black;
+}
+.kasmetolok-title {
+  color: var(--white, #fff);
+  font-family: Gilroy;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 72px */
+}
+.world {
+  color: var(--white, #fff);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  margin: 0;
+  max-width: 416px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.hamburger {
+  z-index: 100;
+}
+
+.social {
+  display: flex;
+}
+
+
+.more {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--accent-1, #00868a);
+  border: none;
+  width: 145px;
+  height: 40px;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.more-details {
+  padding: 20px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: end;
+  margin-top: 135px;
+}
+.image {
+  border: 1px solid white;
+  padding: 25px 15px;
+}
+.foto {
+  width: 60%;
+}
+.img__kosmetolog {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.vip-btn {
+  flex-grow: 1;
+  padding: 24px;
+  font-family: Gilroy;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.Complex {
+  background: var(--accent-1, #00868a);
+  flex-grow: 2;
+}
+.Center {
+  background: var(--accent-2, #4fbfa5);
+
+}
+.VIP {
+  background: var(--accent-1, #00868a);
+}
+.vip-buutons {
+  display: flex;
+}
+
+.information {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+
+}
+
+.card-1 {
+  background-color: #00868A;
+  width: 500px;
+  
+}
+.card-info { 
+  padding: 35px 40px;
+}
+.info-button {
+  background: #4fbfa5;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+
+
+}
+
+.info-text {
+  color: #fff;
+  font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+.info-span {
+  display: flex ;
+  align-items: center;
+  gap: 20px;
+}
+.info-arrow {
+  border: 1px solid #fff;
+  padding: 25px 15px;
+
+}
+.details {
+  font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+letter-spacing: 0.8px;
+text-transform: uppercase;
+color: #fff;
+}
+.invozy__img {
+  width: 100%;
+}
+.country {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+.patent {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+.seven {
+  color: #00000048;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+  margin: 0;
+}
+.cng {
+  color: #00000048;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+  margin: 0;
+}
+.patent-number {
+  color: #00868A;
+  font-family: Gilroy;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0;
+}
+.patent-info {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+  margin: 0;
+  width: 300px;
+}
+/* сертификат */
+.Beauty {
+  position: relative;
+
+
+}
+
+.beauty-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.news {
+  grid-column: span 2;
+  display: flex;
+
+  padding-top: 50px;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+.news-panel {
+  width: 110%;
+  
+  
+}
+.padding {
+  padding: 35px 40px;
+  background: #4FBFA5;
+}
+.btn-news {
+  background: #00868A;
+  border: none;
+  padding: 10px 15px;
+}
+.news-info {
+  background: #00868A;
+}
+.recomend {
+  background: var(--accent-1, #00858a31);
+  padding: 35px;
+  font-weight: 500;
+  
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: #00000070;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+  .main-container {
+    max-width: 100%;
+  }
+  .nav.is-active {
+    right: 0;
+    /* transform: translateX(0); */
+  }
+  .main-button {
+    font-size: 1.5em;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  .social {
+    order: 1;
+  }
+  .banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0 5px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .arrows {
+    margin: 0;
+  }
+  .vip--buuton {
+    display: block;
+  }
+  .Complex {
+    width: 100%;
+  }
+  .Center {
+    width: 100%;
+  }
+  .VIP {
+    width: 100%;
+  }
+  .vip--buuton {
+    width: 100%;
+  }
+  .foto {
+    width: 100%;
+  }
+  .img__kosmetolog {
+    width: 100%;
+  }
+  .vip-buutons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+  }
+.vip-btn Complex {
+  width: 100%
+}
+.vip-btn  Center {
+  width: 100%
+}
+.vip-btn VIP {
+  width: 100%
+} 
+ .information {
+  width: 100%;
+  display: flex;
+ flex-wrap: wrap;
+
+ }
+ .card-1 {
+  width: 100%;
+ } 
+ .beauty-img {
+  width: 100%;
+
+ }
+ .Beauty {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  
+
+ }
+ .flex {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+}
+@media screen and (max-width: 1200px) {
+  .beauty-img {
+    position: static;
+  }
+}
+
+.recomend-title{
+  display: flex;
+  margin-left: 25px;
+}
+
+
+.actikls {
+  padding-top: 30px;
+  color: var(--accent-1, #00868A);
+  text-align: center;
+}
+.offerss {
+  position: relative;
+}
+.Current {
+  background-image: url(/img/accent-1.png);
+  height: 350px;
+}
+
+
+.card{
+  width: 306px;
+  height: 343px;
+  background-color: #00868A ;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-card { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: absolute;
+  left: 10%;
+  bottom: -50%;
+  @media screen and (max-width: 1200px) {
+    position: static;
+  }
+}
+.card_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_info_icon{
+  width: 50px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_info_text {
+  color: #FFFFFF;
+}
+.news-info {
+  color: #FFFFFF;
+}
+.news-activity {
+  color: #FFFFFF;
+}
+.news-methods {
+  color: #FFFFFF;
+}
+.footer-li {
+  list-style: none;
+}
+.footer-ul {
+  padding: 0;
+}
+.fut-header {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+#fut-button {
+  display: inline-flex;
+padding: 15px 25px 14px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+background: var(--accent-1, #00868A);
+color: white;
+}
+#fut-button-2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  border: none;
+  padding: 10px;
+  background: #00868A;
+}
+
+.footer-bottom {
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.f-t {
+  width: 360px;
+}
