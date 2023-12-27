@@ -1,19 +1,13 @@
-
-
-
-
 * {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0 5px;
+  
 }
 
-
 body {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   margin: 0px;
-  font-family:'Oswald' sans-serif;
-  
+  font-family: "Oswald" sans-serif;
 }
 .container {
   max-width: 1300px;
@@ -62,7 +56,6 @@ body {
 .main-container {
   padding-top: 20px;
   background: #4fbfa5;
-
 }
 .banner {
   display: flex;
@@ -97,7 +90,7 @@ body {
   line-height: 150%; /* 21px */
   margin: 0;
   max-width: 416px;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }
 .hamburger {
@@ -107,7 +100,6 @@ body {
 .social {
   display: flex;
 }
-
 
 .more {
   display: inline-flex;
@@ -165,7 +157,6 @@ nav {
 }
 .Center {
   background: var(--accent-2, #4fbfa5);
-
 }
 .VIP {
   background: var(--accent-1, #00868a);
@@ -177,16 +168,14 @@ nav {
 .information {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card-1 {
-  background-color: #00868A;
+  background-color: #00868a;
   width: 500px;
-  
 }
-.card-info { 
+.card-info {
   padding: 35px 40px;
 }
 .info-button {
@@ -194,35 +183,32 @@ nav {
   color: white;
   padding: 10px 15px;
   border: none;
-
-
 }
 
 .info-text {
   color: #fff;
   font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
 }
 .info-span {
-  display: flex ;
+  display: flex;
   align-items: center;
   gap: 20px;
 }
 .info-arrow {
   border: 1px solid #fff;
   padding: 25px 15px;
-
 }
 .details {
   font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; 
-letter-spacing: 0.8px;
-text-transform: uppercase;
-color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #fff;
 }
 .invozy__img {
   width: 100%;
@@ -247,7 +233,7 @@ color: #fff;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; 
+  line-height: 150%;
   margin: 0;
 }
 .cng {
@@ -256,11 +242,11 @@ color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; 
+  line-height: 150%;
   margin: 0;
 }
 .patent-number {
-  color: #00868A;
+  color: #00868a;
   font-family: Gilroy;
   font-size: 96px;
   font-style: normal;
@@ -274,15 +260,13 @@ color: #fff;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; 
+  line-height: 150%;
   margin: 0;
   width: 300px;
 }
 /* сертификат */
 .Beauty {
   position: relative;
-
-
 }
 
 .beauty-img {
@@ -302,31 +286,24 @@ color: #fff;
 }
 .news-panel {
   width: 110%;
-  
-  
 }
 .padding {
   padding: 35px 40px;
-  background: #4FBFA5;
+  background: #4fbfa5;
 }
 .btn-news {
-  background: #00868A;
+  background: #00868a;
   border: none;
   padding: 10px 15px;
 }
 .news-info {
-  background: #00868A;
+  background: #00868a;
 }
 .recomend {
   background: var(--accent-1, #00858a31);
   padding: 35px;
   font-weight: 500;
-  
-
 }
-
-
-
 
 @media screen and (max-width: 800px) {
   .nav {
@@ -353,7 +330,6 @@ color: #fff;
     display: block;
   }
 }
-
 
 @media screen and (max-width: 640px) {
   .social {
@@ -394,43 +370,37 @@ color: #fff;
   .vip-buutons {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
   }
-.vip-btn Complex {
-  width: 100%
-}
-.vip-btn  Center {
-  width: 100%
-}
-.vip-btn VIP {
-  width: 100%
-} 
- .information {
-  width: 100%;
-  display: flex;
- flex-wrap: wrap;
-
- }
- .card-1 {
-  width: 100%;
- } 
- .beauty-img {
-  width: 100%;
-
- }
- .Beauty {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-
-  
-
- }
- .flex {
-  display: flex;
-  flex-wrap: wrap;
- }
-
+  .vip-btn Complex {
+    width: 100%;
+  }
+  .vip-btn Center {
+    width: 100%;
+  }
+  .vip-btn VIP {
+    width: 100%;
+  }
+  .information {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-1 {
+    width: 100%;
+  }
+  .beauty-img {
+    width: 100%;
+  }
+  .Beauty {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 1200px) {
   .beauty-img {
@@ -438,15 +408,14 @@ color: #fff;
   }
 }
 
-.recomend-title{
+.recomend-title {
   display: flex;
   margin-left: 25px;
 }
 
-
 .actikls {
   padding-top: 30px;
-  color: var(--accent-1, #00868A);
+  color: var(--accent-1, #00868a);
   text-align: center;
 }
 .offerss {
@@ -457,15 +426,14 @@ color: #fff;
   height: 350px;
 }
 
-
-.card{
+.card {
   width: 306px;
   height: 343px;
-  background-color: #00868A ;
+  background-color: #00868a;
   display: flex;
   flex-wrap: wrap;
 }
-.main-card { 
+.main-card {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -477,30 +445,30 @@ color: #fff;
     position: static;
   }
 }
-.card_info{
+.card_info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.card_info_icon{
+.card_info_icon {
   width: 50px;
   height: 40px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card_info_text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .news-info {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .news-activity {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .news-methods {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-li {
   list-style: none;
@@ -516,13 +484,13 @@ color: #fff;
 }
 #fut-button {
   display: inline-flex;
-padding: 15px 25px 14px 25px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: none;
-background: var(--accent-1, #00868A);
-color: white;
+  padding: 15px 25px 14px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: var(--accent-1, #00868a);
+  color: white;
 }
 #fut-button-2 {
   display: flex;
@@ -531,7 +499,7 @@ color: white;
   gap: 10px;
   border: none;
   padding: 10px;
-  background: #00868A;
+  background: #00868a;
 }
 
 .footer-bottom {
@@ -549,3 +517,4 @@ color: white;
 .f-t {
   width: 360px;
 }
+
